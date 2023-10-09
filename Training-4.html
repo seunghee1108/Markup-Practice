@@ -4,6 +4,123 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    #root{
+      width: 100vw;
+      height: 100vh;
+    }
+    #root>div:nth-child(1){
+      width: 1728px;
+      height: 200px;
+      background-color: #D9D9D9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #root>div:nth-child(1)>div:nth-child(1){
+      display: flex;
+    }
+    #root>div:nth-child(1)>div:nth-child(1)>div{
+      width: 115px;
+      height: 40px;
+      background-color: #C0C0C0C0;
+      margin: 15px;
+    }
+
+    #root>div:nth-child(2){
+      width: 100vw;
+      height: 917px;
+      background-color: #C0C0C0;
+      display: flex;
+      flex-direction: column;      
+      justify-content: center;
+      align-items: center;
+    }
+    #root>div:nth-child(2)>div:nth-child(1)>div{
+      width: 553px;
+      height: 553px;
+      background-color: #D9D9D9;
+    }
+    #root>div:nth-child(2)>div:nth-child(1)>p{
+      width: 553px;
+      height: 194px;
+      font-size: 12px;
+      margin-top: 30px;
+    }
+
+    #root>div:nth-child(3){
+      width: 100vw;
+      height: 917px;
+      background-color: #8D8D8D;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 3vw;
+    }
+    #root>div:nth-child(3)>div:nth-child(1){
+      margin: 1vw;
+    }
+    #root>div:nth-child(3)>div:nth-child(1)>div{
+      width: 420px;
+      height: 757px;
+      background-color: #C0C0C0;
+    }
+    #root>div:nth-child(3)>div:nth-child(2){
+      display: flex;
+      flex-direction: column;
+      align-content: space-around;
+    }
+    #root>div:nth-child(3)>div:nth-child(2)>div{
+      width: 500px;
+      height: 62px;
+      background-color: #C0C0C0;
+      margin: 18.5px;
+    }
+    #root>div:nth-child(3)>div:nth-child(3){
+      flex-direction: column;
+      margin: 1vw;
+    }
+    #root>div:nth-child(3)>div:nth-child(3)>div{
+      width: 467px;
+      height: 360px;
+      background-color: #C0C0C0;
+    }
+    #root>div:nth-child(3)>div:nth-child(3)>p{
+      width: 467px;
+      height: 359px;
+      font-size: 12px;
+      margin-top: 1vw;
+      text-align: justify;
+      color: white;
+    }
+
+    #root>div:nth-child(4){
+      width: 100vw;
+      height: 370px;
+      background-color: #C0C0C0;
+      display: flex;
+      align-items: center;
+      padding-left: 130px;
+    }
+    #root>div:nth-child(4)>p{
+      width: 733px;
+      height: 245px;
+      text-align: justify;
+      font-size: 12px;
+    }
+    #root>div:nth-child(4)>div{
+      width: 15px;
+      height: 265px;
+      background-color:#D9D9D9;
+      margin-left: 10px;
+    }
+  </style>
 </head>
 <body>
   <div id = "root">
